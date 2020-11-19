@@ -1,0 +1,119 @@
+/* .navbarMenuContainer > div {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+}
+.navbarMenu {
+    font-size: 23px;
+    color: #092327;
+    z-index: 50;
+    margin-top: 5px;
+} */
+.logoItem {
+    width: 5.5em;
+}
+.navbarMenu {
+    color: #092327;
+    font-size: 1.5em;
+    z-index: 50;
+    display: block;
+    padding: .45em .45em .4em 0em;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0em .01em .15em 0em #092327;
+}
+.menuItems {
+    position: fixed;
+    background-color: #092327;
+    color: #ECEBE4;
+    top: 0;
+    left: 0;
+    width: 15em;
+    height: 100%;
+    z-index: 55;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0em 0em .8em 0em #092327;
+}
+.menuItems > span {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    padding: .65em;
+    text-transform: uppercase;
+}
+.menuItems > span > a {
+    color: #ECEBE4;
+    text-decoration: none;
+    letter-spacing: .075em;
+}
+
+.menuMask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    z-index: 50;
+}
+
+
+.navBarMedContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: .85em 0em;
+    text-transform: uppercase;
+    letter-spacing: .055em;
+    box-shadow: 0em 0em .3em 0em #092327;
+}
+.navbarMed {
+    text-decoration: none;
+    color: #092327;
+}
+
+
+.navBarSecMedContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: .85em 0em;
+    letter-spacing: .055em;
+    text-transform: uppercase;
+    box-shadow: 0em 0em .3em 0em #092327;
+}
+.navbarSecMed {
+    text-decoration: none;
+    color: #092327;
+}
+
+
+.navBarLgContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: .9em 0em;
+    font-size: 1.05em;
+    letter-spacing: .055em;
+    text-transform: uppercase;
+    box-shadow: 0em 0em .3em 0em #092327;
+}
+.navbarLg {
+    text-decoration: none;
+    color: #092327;
+}
+
+
+.navBarXXLContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0em;
+    font-size: 1.15em;
+    letter-spacing: .055em;
+    text-transform: uppercase;
+    box-shadow: 0em 0em .3em 0em #092327;
+}
+.navbarXXL {
+    text-decoration: none;
+    color: #092327;
+}

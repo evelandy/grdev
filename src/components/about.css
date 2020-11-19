@@ -1,0 +1,125 @@
+.aboutContainerSm {
+    text-align: center;
+    margin-top: 3em;
+}
+.aboutHeaderSm {
+    font-size: 2em;
+}
+.aboutImgSm {
+    width: 100vw;
+    height: auto;
+}
+.aboutBodySm {
+    margin-top: 3em;
+    width: 80%;
+    margin-left: 2.5em;
+    text-align: left;
+    letter-spacing: .06em;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.35em;
+}
+
+
+.aboutContainerMed {
+    text-align: center;
+    margin-top: 5em;
+}
+.aboutHeaderMed {
+    font-size: 2.1em;
+}
+.aboutImgMed {
+    width: 100vw;
+    height: 50vh;
+}
+.aboutBodyMed {
+    margin-top: 4em;
+    column-count: 2;
+    column-gap: 2em;
+    column-rule: 1px solid lightgray;
+    width: 90%;
+    margin-left: 3em;
+    text-align: left;
+    letter-spacing: .05em;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+
+.aboutContainerSecMed {
+    text-align: center;
+    margin-top: 5em;
+}
+.aboutHeaderSecMed {
+    font-size: 2.2em;
+}
+.aboutImgSecMed {
+    width: 100vw;
+    height: 50vh;
+}
+.aboutBodySecMed {
+    margin-top: 4em;
+    column-count: 2;
+    column-gap: 2em;
+    column-rule: 1px solid lightgray;
+    width: 90%;
+    margin-left: 3em;
+    text-align: left;
+    letter-spacing: .05em;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+
+.aboutContainerLg {
+    text-align: center;
+    margin-top: 6em;
+}
+.aboutHeaderLg {
+    font-size: 2.1em;
+}
+.aboutImgLg {
+    width: 100vw;
+    height: 60vh;
+}
+.aboutBodyLg {
+    margin-top: 4em;
+    column-count: 2;
+    column-gap: 2em;
+    column-rule: 1px solid lightgray;
+    width: 90%;
+    margin-left: 3.5em;
+    text-align: left;
+    letter-spacing: .05em;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+
+.aboutContainerXXL {
+    text-align: center;
+    margin-top: 6em;
+}
+.aboutHeaderXXL {
+    font-size: 2.1em;
+}
+.aboutImgXXL {
+    width: 100vw;
+    height: 75vh;
+}
+.aboutBodyXXL {
+    margin-top: 4em;
+    column-count: 2;
+    column-gap: 2em;
+    column-rule: 1px solid lightgray;
+    width: 80%;
+    margin-left: 8em;
+    text-align: left;
+    letter-spacing: .05em;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: 1.2em;
+}

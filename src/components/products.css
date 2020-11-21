@@ -6,24 +6,118 @@
     padding-bottom: 20px;
     letter-spacing: 2px;
 }
+.productsTitleWeb {
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    margin-top: 1.5em;
+}
 .productsContent {
     margin-bottom: 5em;
     background-color: #000000;
 }
+.productsContentWeb {
+    margin-bottom: 5em;
+    background-color: #000000;
+}
+.productServicesTitle {
+    text-align: center;
+    margin-top: 2em;
+}
+.servicesLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productServicesTitle {
+    margin-bottom: 2em;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.mobileDev {
+    position: absolute;
+    width: 90%;
+    left: 1em;
+    top: 63%;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.mobileSelection {
+    background-color: #000000;
+}
+.phoneSelection {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.3;
+    display: block;
+    object-fit: cover;
+}
+.webDev {
+    position: absolute;
+    width: 90%;
+    bottom: 50%;
+    left: .5em;
+    font-size: 2em;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.webSelection {
+    margin-bottom: 5em;
+    position: relative;
+}
+.webSelectPic {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.3;
+    display: block;
+    object-fit: cover;
+}
+
+
 .phoneBg {
     width: 100%;
     height: 20em;
     position: relative;
     opacity: 0.3;
     display: block;
+    object-fit: cover;
+}
+.webBg {
+    width: 100%;
+    height: 30em;
+    position: relative;
+    opacity: 0.25;
+    display: block;
+    object-fit: cover;
 }
 .productsContent > p {
     position: absolute;
     width: 90%;
     left: 1em;
-    top: 27%;
+    top: 32%;
     color: white;
     font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+}
+.productsContentWeb > p {
+    position: absolute;
+    width: 90%;
+    left: 1em;
+    top: 32%;
+    color: white;
+    font-size: 19px;
     letter-spacing: 1.25px;
     line-height: 25px;
     text-align: center;
@@ -78,7 +172,15 @@
     box-shadow: 1px 1px 5px 1px gray;
 }
 .productImage {
-
+    object-fit: cover;
+}
+.productImageWebApp {
+    object-fit: scale-down;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99.9%;
+    /* opacity: .5; */
 }
 .productHeading {
     position: relative;

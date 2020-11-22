@@ -179,6 +179,8 @@
 }
 .productImage {
     object-fit: cover;
+    width: 18em;
+    height: 16em;
 }
 .productImageWebApp {
     object-fit: scale-down;
@@ -407,6 +409,8 @@
 }
 .medProductImage {
     object-fit: cover;
+    width: 20em;
+    height: 18em;
 }
 .medProductHeading {
     position: relative;
@@ -505,6 +509,8 @@
 }
 .secMedProductImage {
     object-fit: cover;
+    width: 20em;
+    height: 18em;
 }
 .secMedProductHeading {
     position: relative;
@@ -677,6 +683,8 @@
 }
 .lgProductImage {
     object-fit: cover;
+    width: 20em;
+    height: 18em;
 }
 .lgProductHeading {
     position: relative;
@@ -838,7 +846,7 @@
     flex-direction: column;
     align-items: center;
 }
-.XXLProductImageContainer {
+.XXLImageContainer {
     display: flex;
     overflow: hidden;
     flex-direction: column;
@@ -850,6 +858,8 @@
 }
 .XXLProductImage {
     object-fit: cover;
+    width: 22em;
+    height: 20em;
 }
 .XXLProductHeading {
     position: relative;

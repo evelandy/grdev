@@ -84,7 +84,7 @@
     font-size: 2.1em;
 }
 .aboutImgLg {
-    width: 100vw;
+    width: 90vw;
     height: 60vh;
     object-fit: cover;
 }
@@ -111,7 +111,7 @@
     font-size: 2.1em;
 }
 .aboutImgXXL {
-    width: 100vw;
+    width: 90vw;
     height: 75vh;
     object-fit: cover;
 }

@@ -120,12 +120,13 @@
     position: absolute;
     width: 90%;
     left: 1em;
-    top: 32%;
+    top: 25%;
     color: white;
     font-size: 19px;
     letter-spacing: 1.25px;
     line-height: 25px;
     text-align: center;
+    font-size: 19px;
 }
 
 .productsIosTitle {
@@ -334,6 +335,9 @@
     text-align: center;
     text-decoration: none;
     color: black;
+}
+.smCardContainerSecondary {
+    margin-bottom: 1.5em;
 }
 
 
@@ -878,4 +882,303 @@
     text-align: center;
     margin-bottom: 2.25em;
     color: white;
+}
+
+
+
+
+
+
+.medProductsTitleWeb {
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    margin-top: 1.5em;
+    font-size: 30px;
+}
+.medProductsContentWeb {
+    margin-bottom: 5em;
+    background-color: #000000;
+    width: 90%;
+    margin-left: 5%;
+}
+.medWebBg {
+    width: 100%;
+    height: 30em;
+    position: relative;
+    opacity: 0.25;
+    display: block;
+    object-fit: cover;
+}
+.medProductCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+}
+.medProductImageContainer {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    max-width: 90%;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+.medProductImageWebApp {
+    object-fit: scale-down;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99.9%;
+    /* opacity: .5; */
+}
+.medProductHeading {
+    position: relative;
+    bottom: 45px;
+    padding: 10px 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 1px 4px 0px gray;
+}
+.medProductsContentWeb > p {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 35%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 30px;
+    text-align: center;
+}
+.medCardContainerSecondary {
+    margin-bottom: 2em;
+}
+
+
+
+.secMedProductsTitleWeb {
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    margin-top: 1.5em;
+    font-size: 30px;
+}
+.secMedProductsContentWeb {
+    margin-bottom: 5em;
+    background-color: #000000;
+    width: 90%;
+    margin-left: 5%;
+}
+.secMedWebBg {
+    width: 100%;
+    height: 25em;
+    position: relative;
+    opacity: 0.25;
+    display: block;
+    object-fit: cover;
+}
+.secMedProductCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.secMedProductImageContainer {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    max-width: 90%;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+.secMedProductImageWebApp {
+    object-fit: scale-down;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99.9%;
+    /* opacity: .5; */
+}
+.secMedProductHeading {
+    position: relative;
+    bottom: 45px;
+    padding: 10px 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 1px 4px 0px gray;
+}
+.secMedProductsContentWeb > p {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 35%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 30px;
+    text-align: center;
+}
+.secMedCardContainerSecondary {
+    margin-bottom: 2em;
+}
+
+
+
+
+.lgProductsTitleWeb {
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    margin-top: 1.5em;
+    font-size: 30px;
+}
+.lgProductsContentWeb {
+    margin-bottom: 5em;
+    background-color: #000000;
+    width: 90%;
+    margin-left: 5%;
+}
+.lgWebBg {
+    width: 100%;
+    height: 30em;
+    position: relative;
+    opacity: 0.25;
+    display: block;
+    object-fit: cover;
+}
+.lgProductCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.lgProductImageContainer {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    max-width: 90%;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+.lgProductImageWebApp {
+    object-fit: scale-down;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99.9%;
+    /* opacity: .5; */
+}
+.lgProductHeading {
+    position: relative;
+    bottom: 45px;
+    padding: 10px 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 1px 4px 0px gray;
+}
+.lgProductsContentWeb > p {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 40%;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 1.25px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 21px;
+}
+.lgCardContainerSecondary {
+    margin-bottom: 3em;
+}
+
+
+
+
+.XXLProductsTitleWeb {
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    margin-top: 1.5em;
+    font-size: 32px;
+}
+.XXLProductsContentWeb {
+    margin-bottom: 5em;
+    background-color: #000000;
+    width: 90%;
+    margin-left: 5%;
+}
+.XXLWebBg {
+    width: 100%;
+    height: 30em;
+    position: relative;
+    opacity: 0.25;
+    display: block;
+    object-fit: cover;
+}
+.XXLProductCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.XXLProductImageContainer {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    max-width: 90%;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+.XXLProductImageWebApp {
+    object-fit: scale-down;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99.9%;
+    /* opacity: .5; */
+}
+.XXLProductHeading {
+    position: relative;
+    bottom: 45px;
+    padding: 10px 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 1px 4px 0px gray;
+}
+.XXLProductsContentWeb > p {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    top: 45%;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 1.25px;
+    line-height: 32px;
+    font-size: 23px;
+    text-align: center;
+}
+.XXLCardContainerSecondary {
+    margin-bottom: 4em;
 }

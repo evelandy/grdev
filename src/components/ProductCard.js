@@ -1,6 +1,5 @@
 import React from 'react';
 import './products.css';
-// import iosPhone from './iosPhone.jpeg';
 
 export default function ProductCard(props) {
     return (

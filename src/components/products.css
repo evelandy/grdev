@@ -40,7 +40,7 @@
     position: absolute;
     width: 90%;
     left: 1em;
-    top: 63%;
+    top: 57%;
     color: white;
     font-size: 2em;
     letter-spacing: 1.25px;
@@ -194,4 +194,271 @@
 .productsLastChild {
     background-color: rgba(0, 0, 0, 0.84);
     padding-bottom: 20px;
+}
+
+
+
+                                                                /* medium and secondMed components */
+.medProductServicesTitle {
+    text-align: center;
+    margin-top: 2em;
+}
+.medProductServicesTitle {
+    margin-bottom: 2em;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.medServicesLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.medMobileSelection {
+    background-color: #000000;
+    width: 80%;
+}
+.medPhoneSelection {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.3;
+    display: block;
+    object-fit: cover;
+}
+.medMobileDev {
+    position: absolute;
+    width: 90%;
+    left: 1em;
+    top: 59%;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.medWebSelection {
+    margin-bottom: 5em;
+    margin-top: 3em;
+    position: relative;
+    width: 80%;
+}
+.medWebSelectPic {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.3;
+    display: block;
+    object-fit: cover;
+}
+.medWebDev {
+    position: absolute;
+    width: 90%;
+    bottom: 50%;
+    left: 1em;
+    font-size: 2em;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.secMedProductServicesTitle {
+    text-align: center;
+    margin-top: 2em;
+}
+.secMedProductServicesTitle {
+    margin-bottom: 2em;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.secMedServicesLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secMedMobileSelection {
+    background-color: #000000;
+    width: 80%;
+}
+.secMedPhoneSelection {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.3;
+    display: block;
+    object-fit: cover;
+}
+.secMedMobileDev {
+    position: absolute;
+    width: 90%;
+    left: 1.75em;
+    top: 57%;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.secMedWebSelection {
+    margin-bottom: 5em;
+    margin-top: 3em;
+    position: relative;
+    width: 80%;
+}
+.secMedWebSelectPic {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.3;
+    display: block;
+    object-fit: cover;
+}
+.secMedWebDev {
+    position: absolute;
+    width: 90%;
+    bottom: 48%;
+    left: 1.5em;
+    font-size: 2em;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+                                                                /* large component */
+.lgProductServicesTitle {
+    text-align: center;
+    margin-top: 2em;
+}
+.lgProductServicesTitle {
+    margin-bottom: 2em;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.lgServicesLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lgMobileSelection {
+    background-color: #000000;
+    width: 80%;
+}
+.lgPhoneSelection {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.3;
+    /* display: block; */
+    object-fit: cover;
+}
+.lgMobileDev {
+    position: absolute;
+    width: 90%;
+    left: 2em;
+    top: 60%;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.lgWebSelection {
+    margin-top: 4em;
+    margin-bottom: 5em;
+    width: 80%;
+    position: relative;
+}
+.lgWebSelectPic {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.4;
+    display: block;
+    object-fit: cover;
+}
+.lgWebDev {
+    position: absolute;
+    width: 90%;
+    bottom: 47%;
+    left: 2em;
+    font-size: 2em;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+                                                                /* xxl component */
+.XXLProductServicesTitle {
+    text-align: center;
+    margin-top: 2em;
+}
+.XXLProductServicesTitle {
+    margin-bottom: 2em;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.XXLServicesLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.XXLMobileSelection {
+    background-color: #000000;
+    width: 60%;
+}
+.XXLPhoneSelection {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.3;
+    display: block;
+    object-fit: cover;
+}
+.XXLMobileDev {
+    position: absolute;
+    width: 90%;
+    left: 2.25em;
+    top: 58%;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.XXLWebSelection {
+    margin-bottom: 5em;
+    margin-top: 5em;
+    position: relative;
+    width: 60%;
+}
+.XXLWebSelectPic {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.3;
+    display: block;
+    object-fit: cover;
+}
+.XXLWebDev {
+    position: absolute;
+    width: 90%;
+    bottom: 50%;
+    left: 1.75em;
+    font-size: 2em;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
 }

@@ -38,6 +38,74 @@ export default function Products() {
                             </div>
                         </div>
                     }
+                    {matches.medium && 
+                        <div className="medProductServices">
+                            <h2 className="medProductServicesTitle">
+                                Our Services
+                            </h2>
+                            <div className="medServicesLink">
+                                <div className="medMobileSelection">
+                                    <img className="medPhoneSelection" src={phoneSelection} alt="phone selection" />
+                                    <Link to="/mobile" className="medMobileDev">Mobile Development</Link>
+                                </div>
+                                <div className="medWebSelection">
+                                    <img src={webSelection} className="medWebSelectPic" alt="web selection" />
+                                    <Link to="/web" className="medWebDev">Web Development</Link>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    {matches.secondMed && 
+                        <div className="secMedProductServices">
+                            <h2 className="secMedProductServicesTitle">
+                                Our Services
+                            </h2>
+                            <div className="secMedServicesLink">
+                                <div className="secMedMobileSelection">
+                                    <img className="secMedPhoneSelection" src={phoneSelection} alt="phone selection" />
+                                    <Link to="/mobile" className="secMedMobileDev">Mobile Development</Link>
+                                </div>
+                                <div className="secMedWebSelection">
+                                    <img src={webSelection} className="secMedWebSelectPic" alt="web selection" />
+                                    <Link to="/web" className="secMedWebDev">Web Development</Link>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    {matches.large && 
+                        <div className="lgProductServices">
+                            <h2 className="lgProductServicesTitle">
+                                Our Services
+                            </h2>
+                            <div className="lgServicesLink">
+                                <div className="lgMobileSelection">
+                                    <img className="lgPhoneSelection" src={phoneSelection} alt="phone selection" />
+                                    <Link to="/mobile" className="lgMobileDev">Mobile Development</Link>
+                                </div>
+                                <div className="lgWebSelection">
+                                    <img src={webSelection} className="lgWebSelectPic" alt="web selection" />
+                                    <Link to="/web" className="lgWebDev">Web Development</Link>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    {matches.xxl && 
+                        <div className="XXLProductServices">
+                            <h2 className="XXLProductServicesTitle">
+                                Our Services
+                            </h2>
+                            <div className="XXLServicesLink">
+                                <div className="XXLMobileSelection">
+                                    <img className="XXLPhoneSelection" src={phoneSelection} alt="phone selection" />
+                                    <Link to="/mobile" className="XXLMobileDev">Mobile Development</Link>
+                                </div>
+                                <div className="XXLWebSelection">
+                                    <img src={webSelection} className="XXLWebSelectPic" alt="web selection" />
+                                    <Link to="/web" className="XXLWebDev">Web Development</Link>
+                                </div>
+                            </div>
+                        </div>
+                    }
                 </Fragment>
             )}
         </Media>

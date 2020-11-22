@@ -36,16 +36,20 @@
     font-size: 2em;
     text-transform: uppercase;
 }
+.link {
+    text-decoration: none;
+}
 .mobileDev {
-    position: absolute;
-    width: 90%;
-    left: 1em;
-    top: 57%;
+    /* position: absolute; */
+    /* width: 90%; */
+    /* left: 20%; */
+    /* top: 7em; */
     color: white;
     font-size: 2em;
     letter-spacing: 1.25px;
     line-height: 25px;
-    text-align: center;
+    color: white;
+    /* text-align: center; */
     text-decoration: none;
 }
 .mobileSelection {
@@ -60,14 +64,15 @@
     object-fit: cover;
 }
 .webDev {
-    position: absolute;
-    width: 90%;
-    bottom: 50%;
-    left: .5em;
+    /* position: absolute; */
+    /* width: 90%; */
+    /* bottom: 50%; */
+    /* left: .5em; */
     font-size: 2em;
     letter-spacing: 1.25px;
     line-height: 25px;
-    text-align: center;
+    color: black;
+    /* text-align: center; */
     text-decoration: none;
 }
 .webSelection {

@@ -27,14 +27,18 @@ export default function Products() {
                                 Our Services
                             </h2>
                             <div className="servicesLink">
-                                <div className="mobileSelection">
-                                    <img className="phoneSelection" src={phoneSelection} alt="phone selection" />
-                                    <Link to="/mobile" className="mobileDev">Mobile Development</Link>
-                                </div>
-                                <div className="webSelection">
-                                    <img src={webSelection} className="webSelectPic" alt="web selection" />
-                                    <Link to="/web" className="webDev">Web Development</Link>
-                                </div>
+                                <Link to='/mobile' className="link">
+                                    <div className="mobileSelection">
+                                        <img className="phoneSelection" src={phoneSelection} alt="phone selection" />
+                                        <Link to="/mobile" className="mobileDev">Mobile Development</Link>
+                                    </div>
+                                </Link>
+                                <Link to="/web" className="link">
+                                    <div className="webSelection">
+                                        <img src={webSelection} className="webSelectPic" alt="web selection" />
+                                        <Link to="/web" className="webDev">Web Development</Link>
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     }

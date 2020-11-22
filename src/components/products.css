@@ -205,7 +205,6 @@
 }
 
 
-
                                                                 /* medium and secondMed components */
 .medProductServicesTitle {
     text-align: center;
@@ -752,7 +751,7 @@
     position: absolute;
     width: 90%;
     left: 2.25em;
-    top: 58%;
+    top: 48%;
     color: white;
     font-size: 2em;
     letter-spacing: 1.25px;

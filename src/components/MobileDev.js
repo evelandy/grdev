@@ -176,6 +176,112 @@ export default function MobileDev() {
                             </div>
                         </div>
                     }
+                    {matches.large && 
+                        <div className='lgProductsContainer'>
+                            <h2 className="lgProductsTitle">Mobile Development</h2>
+                            <div className="lgProductsContent">
+                                <img className="lgPhoneBg" src={phonesBackground} alt="phones background"/>
+                                <p>
+                                    For years GrDev has been creating impactful apps for all
+                                    mobile devices, helping our clients' apps go mobile. Now you 
+                                    can leverage our experience and expertise in mobile app development 
+                                    to build a bold, beautiful, engaging and consistent app for your 
+                                    industry, reguardless of its complexity.
+                                </p>
+                            </div>
+                            <h2 className="lgProductsIosTitle">iOS / Apple <br /> Mobile Development</h2>
+                            <p className="lgProductsIosDescription">
+                                Wether you are looking for iOS app development services or wanting to 
+                                build an app that functions as well across all Apple devies, our flexible 
+                                and talented developers will help you with each and every step of the way 
+                                from design and development to delivery and complete maintenance.
+                            </p>
+                            <ProductCard
+                                containerName={'lgProductCard'}
+                                imageContainerName={'lgProductImageContainer'}
+                                imgSrc={iosPhone}
+                                imgAlt={'ios Phone device'}
+                                imageName={'lgProductImage'}
+                                headingContainerName={'lgProductHeadContainer'}
+                                headingName={'lgProductHeading'}
+                                headingTitle={'iOS'}
+                            />
+                            <div className="lgProductsLastChild">
+                                <h2 className="lgProductsAndroidTitle">Android <br /> Mobile Development</h2>
+                                <p className="lgProductsAndroidDescription">
+                                    At GrDev, we can help you build a solid solution that works on every one 
+                                    of your devices regardless of brand and your industry of operation. 
+                                    Our experts know every aspect of the Android platform, with experience 
+                                    working with countless Android device types, brands and ecosystems. Our 
+                                    Android app development services will give you a beautiful, fast and 
+                                    reliable product that appeals to all your users.
+                                </p>
+                                <ProductCard
+                                    containerName={'lgProductCard'}
+                                    imageContainerName={'lgProductImageContainer'}
+                                    imgSrc={AndroidPhone}
+                                    imgAlt={'Android Phone device'}
+                                    imageName={'lgProductImage'}
+                                    headingContainerName={'lgProductHeadContainer'}
+                                    headingName={'lgProductHeading'}
+                                    headingTitle={'Android'}
+                                />
+                            </div>
+                        </div>
+                    }
+                    {matches.xxl && 
+                        <div className='XXLProductsContainer'>
+                            <h2 className="XXLProductsTitle">Mobile Development</h2>
+                            <div className="XXLProductsContent">
+                                <img className="XXLPhoneBg" src={phonesBackground} alt="phones background"/>
+                                <p>
+                                    For years GrDev has been creating impactful apps for all
+                                    mobile devices, helping our clients' apps go mobile. Now you 
+                                    can leverage our experience and expertise in mobile app development 
+                                    to build a bold, beautiful, engaging and consistent app for your 
+                                    industry, reguardless of its complexity.
+                                </p>
+                            </div>
+                            <h2 className="XXLProductsIosTitle">iOS / Apple <br /> Mobile Development</h2>
+                            <p className="XXLProductsIosDescription">
+                                Wether you are looking for iOS app development services or wanting to 
+                                build an app that functions as well across all Apple devies, our flexible 
+                                and talented developers will help you with each and every step of the way 
+                                from design and development to delivery and complete maintenance.
+                            </p>
+                            <ProductCard
+                                containerName={'XXLProductCard'}
+                                imageContainerName={'XXLProductImageContainer'}
+                                imgSrc={iosPhone}
+                                imgAlt={'ios Phone device'}
+                                imageName={'XXLProductImage'}
+                                headingContainerName={'XXLProductHeadContainer'}
+                                headingName={'XXLProductHeading'}
+                                headingTitle={'iOS'}
+                            />
+                            <div className="XXLProductsLastChild">
+                                <h2 className="XXLProductsAndroidTitle">Android <br /> Mobile Development</h2>
+                                <p className="XXLProductsAndroidDescription">
+                                    At GrDev, we can help you build a solid solution that works on every one 
+                                    of your devices regardless of brand and your industry of operation. 
+                                    Our experts know every aspect of the Android platform, with experience 
+                                    working with countless Android device types, brands and ecosystems. Our 
+                                    Android app development services will give you a beautiful, fast and 
+                                    reliable product that appeals to all your users.
+                                </p>
+                                <ProductCard
+                                    containerName={'XXLProductCard'}
+                                    imageContainerName={'XXLProductImageContainer'}
+                                    imgSrc={AndroidPhone}
+                                    imgAlt={'Android Phone device'}
+                                    imageName={'XXLProductImage'}
+                                    headingContainerName={'XXLProductHeadContainer'}
+                                    headingName={'XXLProductHeading'}
+                                    headingTitle={'Android'}
+                                />
+                            </div>
+                        </div>
+                    }
                 </Fragment>
             )}
         </Media>

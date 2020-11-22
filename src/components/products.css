@@ -267,6 +267,7 @@
     line-height: 25px;
     text-align: center;
     text-decoration: none;
+    color: black;
 }
 
 .secMedProductServicesTitle {
@@ -332,6 +333,205 @@
     line-height: 25px;
     text-align: center;
     text-decoration: none;
+    color: black;
+}
+
+
+                                                                /* medium and secondMed mobile component */
+.medProductsContainer {
+    margin-top: 50px;
+}
+.medProductsTitle {
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.medProductsContent {
+    margin-bottom: 5em;
+    background-color: #000000;
+    width: 90%;
+    margin-left: 5%;
+}
+.medPhoneBg {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.3;
+    display: block;
+    object-fit: cover;
+}
+.medProductsContent > p {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 32%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+}
+.medProductsIosTitle {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.medProductsIosDescription {
+    position: relative;
+    left: 1em;
+    width: 90%;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 2.25em;
+}
+.medProductCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.medProductImageContainer {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    max-width: 60%;
+    height: 16rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+.medProductImage {
+    object-fit: cover;
+}
+.medProductHeading {
+    position: relative;
+    bottom: 45px;
+    padding: 10px 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 1px 4px 0px gray;
+}
+.medProductsLastChild {
+    background-color: rgba(0, 0, 0, 0.84);
+    padding-bottom: 20px;
+}
+.medProductsAndroidTitle {
+    text-align: center;
+    margin-bottom: 1.5em;
+    color: white;
+    padding-top: 90px;
+}
+.medProductsAndroidDescription {
+    position: relative;
+    left: 1em;
+    width: 90%;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 2.25em;
+    color: white;
+}
+
+
+.secMedProductsContainer {
+    margin-top: 50px;
+}
+.secMedProductsTitle {
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.secMedProductsContent {
+    margin-bottom: 5em;
+    background-color: #000000;
+    width: 90%;
+    margin-left: 5%;
+}
+.secMedPhoneBg {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.3;
+    display: block;
+    object-fit: cover;
+}
+.secMedProductsContent > p {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 40%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+}
+.secMedProductsIosTitle {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.secMedProductsIosDescription {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 2.25em;
+}
+.secMedProductCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.secMedProductImageContainer {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    max-width: 60%;
+    height: 18rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+.secMedProductImage {
+    object-fit: cover;
+}
+.secMedProductHeading {
+    position: relative;
+    bottom: 45px;
+    padding: 10px 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 1px 4px 0px gray;
+}
+.secMedProductsLastChild {
+    background-color: rgba(0, 0, 0, 0.84);
+    padding-bottom: 20px;
+    margin-bottom: 3em;
+}
+.secMedProductsAndroidTitle {
+    text-align: center;
+    margin-bottom: 1.5em;
+    color: white;
+    padding-top: 90px;
+}
+.secMedProductsAndroidDescription {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 2.25em;
+    color: white;
 }
 
 
@@ -399,6 +599,112 @@
     line-height: 25px;
     text-align: center;
     text-decoration: none;
+    color: black;
+}
+
+
+                                                                /* large mobile component */
+
+
+.lgProductsContainer {
+    margin-top: 50px;
+}
+.lgProductsTitle {
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.lgProductsContent {
+    margin-bottom: 5em;
+    background-color: #000000;
+    width: 90%;
+    margin-left: 5%;
+}
+.lgPhoneBg {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.3;
+    display: block;
+    object-fit: cover;
+}
+.lgProductsContent > p {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 45%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+}
+.lgProductsIosTitle {
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 30px;
+}
+.lgProductsIosDescription {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 2.25em;
+}
+.lgProductCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.lgProductImageContainer {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    max-width: 45%;
+    height: 19rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+.lgProductImage {
+    object-fit: cover;
+}
+.lgProductHeading {
+    position: relative;
+    bottom: 45px;
+    padding: 10px 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 1px 4px 0px gray;
+}
+.lgProductsLastChild {
+    background-color: rgba(0, 0, 0, 0.84);
+    padding-bottom: 20px;
+    margin-bottom: 4em;
+}
+.lgProductsAndroidTitle {
+    text-align: center;
+    margin-bottom: 1.5em;
+    color: white;
+    padding-top: 90px;
+    font-size: 30px;
+}
+.lgProductsAndroidDescription {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 2.25em;
+    color: white;
 }
 
 
@@ -466,4 +772,110 @@
     line-height: 25px;
     text-align: center;
     text-decoration: none;
+    color: black;
+}
+
+
+                                                                /* xxl mobile component */
+
+
+.XXLProductsContainer {
+    margin-top: 50px;
+}
+.XXLProductsTitle {
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.XXLProductsContent {
+    margin-bottom: 5em;
+    background-color: #000000;
+    width: 90%;
+    margin-left: 5%;
+}
+.XXLPhoneBg {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    opacity: 0.3;
+    display: block;
+    object-fit: cover;
+}
+.XXLProductsContent > p {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    top: 45%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+}
+.XXLProductsIosTitle {
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 30px;
+}
+.XXLProductsIosDescription {
+    position: relative;
+    left: 20%;
+    width: 60%;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 2.25em;
+}
+.XXLProductCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.XXLProductImageContainer {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    max-width: 35%;
+    height: 20rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+.XXLProductImage {
+    object-fit: cover;
+}
+.XXLProductHeading {
+    position: relative;
+    bottom: 45px;
+    padding: 10px 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 1px 4px 0px gray;
+}
+.XXLProductsLastChild {
+    background-color: rgba(0, 0, 0, 0.84);
+    padding-bottom: 20px;
+    margin-bottom: 4em;
+}
+.XXLProductsAndroidTitle {
+    text-align: center;
+    margin-bottom: 1.5em;
+    color: white;
+    padding-top: 90px;
+    font-size: 30px;
+}
+.XXLProductsAndroidDescription {
+    position: relative;
+    left: 20%;
+    width: 60%;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 2.25em;
+    color: white;
 }

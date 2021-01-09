@@ -1,5 +1,5 @@
                                                                 /* small cards */
-.projectsContainer {
+/* .projectsContainer {
     text-align: center;
     padding: 10px 0;
     margin-top: .75em;
@@ -72,331 +72,229 @@
     color: black;
     font-size: 2.5em;
     opacity: .8;
+} */
+
+.projectsContainer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: .75em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projectsHeader {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+.projectCardContainerMain {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1em;
+    flex-wrap: wrap;
+}
+
+.projectCardContainer {
+    width: 27em;
+    height: auto;
+    object-fit: contain;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.projectImg {
+    /* width: 100%; */
+    width: 27em;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0px 1px 5px 1px gray;
+}
+.projectName {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px 0px gray;
+    width: 60%;
+    margin-left: 20%;
+    position: relative;
+    bottom: 1.75em;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
                                                                 /* medium and secondMedium cards */
-.medProjectsContainer {
+.medProjectsHeader {
+    font-size: 2em;
+    margin-bottom: 1.5em;
     text-align: center;
-    padding: 10px 0;
-    margin-top: .75em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
-.medProjectsContainer > h2 {
-    font-size: 1.75em;
+.medProjectCardContainerMain {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1em;
+    flex-wrap: wrap;
 }
 
-.medProjectCardContainer1 {
-    background-image: url('./wrgcv_screenshot.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 18em;
-    width: 90vw;
+.medProjectCardContainer {
+    width: 27em;
+    height: auto;
+    object-fit: contain;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.medProjectImg {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0px 1px 5px 0px gray;
+}
+.medProjectName {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px 0px gray;
+    width: 60%;
+    margin-left: 20%;
     position: relative;
+    bottom: 1.75em;
+    padding-top: 3px;
+    padding-bottom: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-position: center;
-}
-.medProjectName1 {
-    position: absolute;
-    color: white;
-    font-size: 2.5em;
-    opacity: .95;
 }
 
-.medProjectCardContainer2 {
-    background-image: url('./conf_screenshot.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 18em;
-    width: 90vw;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5em;
-}
-.medProjectName2 {
-    position: absolute;
-    color: black;
-    font-size: 2.5em;
-    opacity: .55;
-}
 
-.medProjectCardContainer3 {
-    background-image: url('./city_screenshot.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 18em;
-    width: 90vw;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5em;
-}
-.medProjectName3 {
-    position: absolute;
-    color: black;
-    font-size: 2.5em;
-    opacity: .8;
-}
-
-.secMedProjectsContainer {
+.secMedProjectsHeader {
+    font-size: 2em;
+    margin-bottom: 1.5em;
     text-align: center;
-    padding: 10px 0;
-    margin-top: .75em;
+}
+.secMedProjectCardContainerMain {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-}
-.secMedProjectsContainer > h2 {
-    font-size: 1.75em;
-}
-.secMedProjectCardContainer1 {
-    background-image: url('./wrgcv_screenshot.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 18em;
-    width: 90vw;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-}
-.secMedProjectName1 {
-    position: absolute;
-    color: white;
-    font-size: 2.5em;
-    opacity: .95;
+    padding-top: 1em;
+    flex-wrap: wrap;
 }
 
-.secMedProjectCardContainer2 {
-    background-image: url('./conf_screenshot.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 18em;
-    width: 90vw;
+.secMedProjectCardContainer {
+    width: 27em;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.secMedProjectImg {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0px 1px 5px 1px gray;
+}
+.secMedProjectName {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px 0px gray;
+    width: 60%;
+    margin-left: 20%;
     position: relative;
+    bottom: 1.75em;
+    padding-top: 3px;
+    padding-bottom: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5em;
-}
-.secMedProjectName2 {
-    position: absolute;
-    color: black;
-    font-size: 2.5em;
-    opacity: .55;
-}
-
-.secMedProjectCardContainer3 {
-    background-image: url('./city_screenshot.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 18em;
-    width: 90vw;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5em;
-    margin-bottom: 5em;
-}
-.secMedProjectName3 {
-    position: absolute;
-    color: black;
-    font-size: 2.5em;
-    opacity: .8;
 }
 
 
                                                                 /* large container */
-.lgProjectsContainer {
+.lgProjectsHeader {
+    font-size: 2.25em;
     text-align: center;
-    padding: 10px 0;
-    margin-top: .75em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
-.lgProjectsContainer > h2 {
-    font-size: 2em;
+.lgProjectCardContainerMain {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1em;
+    flex-wrap: wrap;
 }
 
-.lgProjectCardContainer1 {
-    background-image: url('./wrgcv_screenshot.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 90vw;
-    height: 70vh;
+.lgProjectCardContainer {
+    width: 27em;
+    height: auto;
+    object-fit: contain;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.lgProjectImg {
+    width: 100%;
+    box-shadow: 0px 1px 5px 0px gray;
+}
+.lgProjectName {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px 0px gray;
+    width: 60%;
+    margin-left: 20%;
     position: relative;
+    bottom: 1.75em;
+    padding-top: 3px;
+    padding-bottom: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-position: center;
-}
-.lgProjectName1 {
-    position: absolute;
-    color: black;
-    font-size: 3.5em;
-    opacity: .9;
-    padding: .25em;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 0px 1px 3px 0px white;
-}
-
-.lgProjectCardContainer2 {
-    background-image: url('./conf_screenshot.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 90vw;
-    height: 70vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5em;
-}
-.lgProjectName2 {
-    position: absolute;
-    color: black;
-    font-size: 3.5em;
-    opacity: .9;
-    padding: .25em;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 0px 1px 3px 0px white;
-}
-
-.lgProjectCardContainer3 {
-    background-image: url('./city_screenshot.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 90vw;
-    height: 70vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5em;
-    margin-bottom: 5em;
-}
-.lgProjectName3 {
-    position: absolute;
-    color: black;
-    font-size: 3.5em;
-    opacity: .9;
-    padding: .25em;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 0px 1px 3px 0px white;
 }
 
 
                                                                 /* xxl container */
-.XXLProjectsContainer {
-    text-align: center;
-    padding: 10px 0;
-    margin-top: .75em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.XXLProjectsContainer > h2 {
+.XXLProjectsHeader {
     font-size: 2.5em;
-    margin-bottom: 1.25em;
+    margin-bottom: 3.25em;
+    text-align: center;
+}
+.XXLProjectCardContainerMain {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2em;
 }
 
-.XXLProjectCardContainer1 {
-    background-image: url('./wrgcv_screenshot.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 90vw;
-    height: 100vh;
+.XXLProjectCardContainer {
+    width: 27em;
+    height: auto;
+    object-fit: contain;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.XXLProjectImg {
+    width: 100%;
+    box-shadow: 0px 1px 5px 0px gray;
+}
+.XXLProjectName {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px 0px gray;
+    width: 60%;
+    margin-left: 20%;
     position: relative;
+    bottom: 1.75em;
+    padding-top: 3px;
+    padding-bottom: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-position: center;
-}
-.XXLProjectName1 {
-    position: absolute;
-    color: black;
-    font-size: 3.5em;
-    opacity: .9;
-    padding: .25em;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 0px 1px 3px 0px white;
-}
-
-.XXLProjectCardContainer2 {
-    background-image: url('./conf_screenshot.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 90vw;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5em;
-}
-.XXLProjectName2 {
-    position: absolute;
-    color: black;
-    font-size: 3.5em;
-    opacity: .9;
-    padding: .25em;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 0px 1px 3px 0px white;
-}
-
-.XXLProjectCardContainer3 {
-    background-image: url('./city_screenshot.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 90vw;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5em;
-    margin-bottom: 5em;
-}
-.XXLProjectName3 {
-    position: absolute;
-    color: black;
-    font-size: 3.5em;
-    opacity: .9;
-    padding: .25em;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 0px 1px 3px 0px white;
 }

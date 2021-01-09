@@ -4,7 +4,9 @@ import './footer.css';
 export default function Footer() {
     return (
         <div className='footer'>
-            &copy; GrDev 2020
+            <div className="innerFooter">
+                &copy; GrDev 2020
+            </div>
         </div>
     );
 }
